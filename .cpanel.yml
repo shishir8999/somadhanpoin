@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/somadha1/public_html/test1/
+    - /bin/cp -R * $DEPLOYPATH
